@@ -24,12 +24,11 @@ namespace EmployeeForm.BLL.Service
             return await _context.Employees.ToListAsync();
         }
 
-        public async Task<Employee?> GetEmployeeAsync(int id)
+        public async Task<Employee?> GetEmployeeByIdAsync(int id)
         {
 
             if (id <= 0)
                 return null;
-
             return await _context.Employees.FirstOrDefaultAsync(e => e.Id == id);
         }
 
@@ -39,7 +38,7 @@ namespace EmployeeForm.BLL.Service
                 return GeneralStatus.NotValid;
             try
             {
-                var _employee = await GetEmployeeAsync(employee.Id);
+                var _employee = await GetEmployeeByIdAsync(employee.Id);
                 if (_employee != null)
                     return GeneralStatus.ExistBefore;
 
@@ -52,9 +51,6 @@ namespace EmployeeForm.BLL.Service
                 return GeneralStatus.Fail;
             }
         }
-
-
-
 
     }
 }

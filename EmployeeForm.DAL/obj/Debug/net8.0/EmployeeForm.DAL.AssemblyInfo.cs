@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeeForm.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cc1874b99a599de688d448d070b6c355cfb771e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9225b66407e8993a91b53a39614c7650e9d8f1ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeeForm.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeeForm.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

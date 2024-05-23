@@ -10,7 +10,7 @@ namespace EmployeeForm.BLL.IServices
     public interface IEmployeeService
     {
         Task<IEnumerable<Employee>> GetEmployeesAsync();
-        Task<Employee?> GetEmployeeAsync(int id);
+        Task<Employee?> GetEmployeeByIdAsync(int id);
         Task<GeneralStatus> AddEmployeeAsync(Employee employee);
     }
 }
