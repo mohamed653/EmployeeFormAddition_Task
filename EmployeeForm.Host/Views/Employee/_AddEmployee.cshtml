@@ -1,0 +1,72 @@
+﻿@model EmployeeForm.DAL.Models.Employee
+
+@{
+    SelectList jobRoles = new SelectList(Enum.GetValues(typeof(EmployeeForm.DAL.Models.JobRole)));
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header text-center">
+                <h2>Add Employee</h2>
+            </div>
+            <div class="card-body">
+                <form id="Add-Form" asp-action="Create" method="post">
+                    @* <div class="text-danger" asp-validation-summary="All"></div> *@
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="JobRole" class="form-label"></label>
+                        <select class="form-select" asp-for="JobRole" asp-items="jobRoles">
+                            <option value="">Select Job Role</option>
+                        </select>
+                        <span asp-validation-for="JobRole" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Gender</label>
+                        <div class="form-check">
+                            <input asp-for="Gender" class="form-check-input" type="radio" value="Male">
+                            <label class="form-check-label">Male</label>
+                        </div>
+                        <div class="form-check">
+                            <input asp-for="Gender" class="form-check-input" type="radio" value="Female">
+                            <label class="form-check-label">Female</label>
+                        </div>
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input asp-for="FirstAppointment" class="form-check-input" type="checkbox">
+                        <label asp-for="FirstAppointment" class="form-check-label"></label>
+                        <span asp-validation-for="FirstAppointment" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="StartDate" class="form-label"></label>
+                        <input asp-for="StartDate" class="form-control" type="date" >
+                        <span asp-validation-for="StartDate" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Notes" class="form-label"></label>
+                        <textarea asp-for="Notes" class="form-control" rows="4"></textarea>
+                        <span asp-validation-for="Notes" class="text-danger"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+
+    <script>
+        $(document).ready(function () {
+            $('#Add-Form input, #Add-Form select').on('blur', function () {
+                $(this).valid();
+            });
+        });
+    </script>
+}

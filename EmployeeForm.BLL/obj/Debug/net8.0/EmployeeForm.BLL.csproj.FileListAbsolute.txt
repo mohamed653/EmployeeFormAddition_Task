@@ -15,3 +15,4 @@ F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\Employee
 F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\ref\EmployeeForm.BLL.dll
 F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\bin\Debug\net8.0\EmployeeForm.BLL.runtimeconfig.json
 F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\EmployeeForm.BLL.genruntimeconfig.cache
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\EmployeeForm.BLL.sourcelink.json

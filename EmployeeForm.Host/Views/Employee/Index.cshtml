@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Employee>
+
+@{
+    ViewBag.Title = "Employee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container mt-5">
+    <div class="row">
+
+        @*Add Employee Partial View*@
+        @Html.Partial("_AddEmployee", new Employee())
+
+
+        <div id="employeeList">
+
+            @*EmployeeList Partial View*@
+
+        </div>
+
+
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        //toastr configurations
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": true,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+
+        function loadEmployees(currentPage) {
+            $.ajax({
+                url: "@Url.Action("EmployeeList")",
+                type: "GET",
+                data: { page: currentPage },
+                success: function (response) {
+                   
+                    $("#employeeList").html(response);
+                  
+                },
+                error: function (xhr, status, error) {
+                    toastr.error(xhr.responseText);
+                },
+            });
+        }
+
+        
+     
+
+        $(document).ready(function () {
+            loadEmployees();
+
+            $("#Add-Form").submit(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    url: $(this).attr("action"),
+                    type: "POST",
+                    data: $(this).serialize(),
+                    success: function (response) {
+                        if (response.success) {
+                            toastr.success(response.message);
+                         
+                            loadEmployees();
+                            // clear form
+                            $("#Add-Form")[0].reset();
+                        } else {
+                            toastr.error(response.message);
+                        }
+                    },
+                    error: function (error) {
+                        toastr.error('something went wrong!');
+                    }
+                });
+
+                
+            });
+        });
+    </script>
+}

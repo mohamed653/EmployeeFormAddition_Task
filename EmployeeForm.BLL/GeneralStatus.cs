@@ -8,10 +8,11 @@ namespace EmployeeForm.BLL
 {
     public enum GeneralStatus
     {
-        Active,
-        Inactive,
-        Pending,
-        Approved,
-        Rejected
+        Success,
+        Fail,
+        NotFound,
+        ExistBefore,
+        NotValid
+
     }
 }

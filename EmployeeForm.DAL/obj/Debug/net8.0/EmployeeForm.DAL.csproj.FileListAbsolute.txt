@@ -12,3 +12,4 @@ F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\Employee
 F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\ref\EmployeeForm.DAL.dll
 F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\bin\Debug\net8.0\EmployeeForm.DAL.runtimeconfig.json
 F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\EmployeeForm.DAL.genruntimeconfig.cache
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\EmployeeForm.DAL.sourcelink.json

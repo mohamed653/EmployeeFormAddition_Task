@@ -18,12 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\VisualStudio Projects\EmployeeForm\EmployeeForm.Host
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/VisualStudio Projects/EmployeeForm/EmployeeForm.Host/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[F:/VisualStudio Projects/EmployeeForm/EmployeeForm.Host/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/VisualStudio Projects/EmployeeForm/EmployeeForm.Host/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[F:/VisualStudio Projects/EmployeeForm/EmployeeForm.Host/Views/Employee/_AddEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcX0FkZEVtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/VisualStudio Projects/EmployeeForm/EmployeeForm.Host/Views/Employee/_EmployeeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcX0VtcGxveWVlTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/VisualStudio Projects/EmployeeForm/EmployeeForm.Host/Views/Shared/Error.cshtml]
