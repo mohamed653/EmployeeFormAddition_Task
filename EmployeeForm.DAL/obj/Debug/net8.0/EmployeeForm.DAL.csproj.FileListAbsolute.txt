@@ -1,0 +1,14 @@
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\bin\Debug\net8.0\EmployeeForm.DAL.deps.json
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\bin\Debug\net8.0\EmployeeForm.DAL.dll
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\bin\Debug\net8.0\EmployeeForm.DAL.pdb
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\EmployeeForm.DAL.csproj.AssemblyReference.cache
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\EmployeeForm.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\EmployeeForm.DAL.AssemblyInfoInputs.cache
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\EmployeeForm.DAL.AssemblyInfo.cs
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\EmployeeForm.DAL.csproj.CoreCompileInputs.cache
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\EmployeeForm.DAL.dll
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\refint\EmployeeForm.DAL.dll
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\EmployeeForm.DAL.pdb
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\ref\EmployeeForm.DAL.dll
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\bin\Debug\net8.0\EmployeeForm.DAL.runtimeconfig.json
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.DAL\obj\Debug\net8.0\EmployeeForm.DAL.genruntimeconfig.cache

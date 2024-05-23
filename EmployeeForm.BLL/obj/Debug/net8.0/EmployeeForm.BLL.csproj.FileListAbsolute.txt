@@ -1,0 +1,17 @@
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\bin\Debug\net8.0\EmployeeForm.BLL.deps.json
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\bin\Debug\net8.0\EmployeeForm.BLL.dll
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\bin\Debug\net8.0\EmployeeForm.BLL.pdb
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\bin\Debug\net8.0\EmployeeForm.DAL.dll
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\bin\Debug\net8.0\EmployeeForm.DAL.pdb
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\EmployeeForm.BLL.csproj.AssemblyReference.cache
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\EmployeeForm.BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\EmployeeForm.BLL.AssemblyInfoInputs.cache
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\EmployeeForm.BLL.AssemblyInfo.cs
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\EmployeeForm.BLL.csproj.CoreCompileInputs.cache
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\Employee.ED03F9A0.Up2Date
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\EmployeeForm.BLL.dll
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\refint\EmployeeForm.BLL.dll
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\EmployeeForm.BLL.pdb
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\ref\EmployeeForm.BLL.dll
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\bin\Debug\net8.0\EmployeeForm.BLL.runtimeconfig.json
+F:\VisualStudio Projects\EmployeeForm\EmployeeForm.BLL\obj\Debug\net8.0\EmployeeForm.BLL.genruntimeconfig.cache
