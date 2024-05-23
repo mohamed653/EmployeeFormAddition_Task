@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeeForm.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9225b66407e8993a91b53a39614c7650e9d8f1ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2c330a363ba0afea548dfe8f10cbc80f3f05896")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeeForm.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeeForm.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

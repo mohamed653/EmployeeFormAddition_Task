@@ -25,6 +25,15 @@ namespace EmployeeForm.DAL.Data
                 optionsBuilder.UseSqlServer("Server=.;Database=EmployeeForm;Integrated Security=true;TrustServerCertificate=true;");
             }
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+            // Seed data
+            modelBuilder.Entity<Employee>().HasData(
+                new Employee { Id = 1, Name = "Mohamed", Gender = Gender.Male, StartDate = DateTime.Now, FirstAppointment = true, JobRole = JobRole.Developer, Notes = "some additional notes" },
+                new Employee { Id = 2, Name = "Hamed",Gender=Gender.Male,StartDate=DateTime.Now,FirstAppointment=true,JobRole=JobRole.Developer,Notes="some additional notes" }
+            );
+        }
 
     }
 }
