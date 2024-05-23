@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -20,3 +21,55 @@ html {
 body {
   margin-bottom: 60px;
 }
+.navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e3e3e3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+}
+
+    .navbar-brand:hover {
+        color: #0056b3;
+    }
+
+.nav-link {
+    color: #555;
+    transition: color 0.3s ease-in-out;
+}
+
+    .nav-link:hover {
+        color: #007bff;
+    }
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.nav-item{
+    font-size:1.2rem;
+    margin-left:1rem;
+    color:#007bff;
+}
+.nav-item:hover{
+    transform:scale(1.2);
+}
+.nav-item{
+    transition:transform 0.3s ease-in-out;
+}
+.table-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+    .table-shadow:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }

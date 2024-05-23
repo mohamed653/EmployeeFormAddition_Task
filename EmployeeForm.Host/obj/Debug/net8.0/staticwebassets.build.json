@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HMAOvmHb+ftu3OP6M0i4UfN2rqXXMNynYU6VnndqvJg=",
+  "Hash": "RIWPjoky1aX3l8+cmsEs9k79FAm7CYoqDyWfFSjHTFM=",
   "Source": "EmployeeForm.Host",
   "BasePath": "_content/EmployeeForm.Host",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\VisualStudio Projects\\EmployeeForm\\EmployeeForm.Host\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EmployeeForm.Host.bundle.scp.css"
+    },
+    {
+      "Identity": "F:\\VisualStudio Projects\\EmployeeForm\\EmployeeForm.Host\\wwwroot\\css\\AddEmployee.css",
+      "SourceId": "EmployeeForm.Host",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\VisualStudio Projects\\EmployeeForm\\EmployeeForm.Host\\wwwroot\\",
+      "BasePath": "_content/EmployeeForm.Host",
+      "RelativePath": "css/AddEmployee.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AddEmployee.css"
     },
     {
       "Identity": "F:\\VisualStudio Projects\\EmployeeForm\\EmployeeForm.Host\\wwwroot\\css\\site.css",

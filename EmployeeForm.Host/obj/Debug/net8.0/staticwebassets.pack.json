@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\EmployeeForm.Host.bundle.scp.css"
     },
     {
+      "Id": "F:\\VisualStudio Projects\\EmployeeForm\\EmployeeForm.Host\\wwwroot\\css\\AddEmployee.css",
+      "PackagePath": "staticwebassets\\css\\AddEmployee.css"
+    },
+    {
       "Id": "F:\\VisualStudio Projects\\EmployeeForm\\EmployeeForm.Host\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -36,9 +36,11 @@ namespace EmployeeForm.DAL.Models
 
         public bool FirstAppointment { get; set; }
         [Required(ErrorMessage = "The  Date Field is Required")]
-        public DateTime StartDate { get; set; }
+        public DateTime StartDate { get; set; } = DateTime.Now;
 
         [MaxLength(500,ErrorMessage = "The Notes Field should have a maximum of 500 characters ")]
         public string? Notes { get; set; }
+
+
     }
 }

@@ -1,0 +1,49 @@
+.custom-button {
+    width: 150px;
+    animation: pulse 1.5s infinite;
+    /*center the button*/
+    display: block;
+    margin: 0 auto;
+
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control, .form-select {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.3s ease-in-out;
+}
+
+    .form-control:focus, .form-select:focus {
+        border-color: #80bdff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+.card-header {
+    font-size: 1.5rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-check-label {
+    margin-left: 1.25rem;
+}
